@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LPodTest'
-  s.version          = '1.0.0'
+  s.version          = '1.0'
   s.summary          = 'A simple pod test summary'
 
 # This description is used to generate tags and improve search results.
