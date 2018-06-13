@@ -1,0 +1,16 @@
+PODS:
+  - LPodTest (0.1.0)
+
+DEPENDENCIES:
+  - LPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  LPodTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LPodTest: c5dbb0fe1a8d56f16e4b11bc3c868d2283b162c0
+
+PODFILE CHECKSUM: 2334294086d0359eacee8bf20b71eef8180dc668
+
+COCOAPODS: 1.4.0
