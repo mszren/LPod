@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LPodTest'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A simple pod test summary'
 
 # This description is used to generate tags and improve search results.
@@ -17,15 +17,11 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-  A simple pod test description
-                       DESC
-
   s.homepage         = 'https://github.com/binbinShen/LPodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'binbinShen' => '2439398156@qq.com' }
-  s.source           = { :git => 'https://github.com/binbinShen/LPodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mszren/LPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -40,3 +36,4 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
